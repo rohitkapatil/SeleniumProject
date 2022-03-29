@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="3" time="0.187" timestamp="2022-03-06T13:15:09.849057" hostname="DESKTOP-CTH5PV2"><testcase classname="PytestPrograms.Test_first" name="test_first" time="0.002" /><testcase classname="PytestPrograms.Test_first" name="test_second" time="0.003"><failure message="assert 10 == 20">def test_second():
+        x = 10
+        y = 20
+&gt;       assert x == y
+E       assert 10 == 20
+
+PytestPrograms\Test_first.py:11: AssertionError</failure></testcase><testcase classname="PytestPrograms.Test_first" name="test_third" time="0.001" /></testsuite></testsuites>
